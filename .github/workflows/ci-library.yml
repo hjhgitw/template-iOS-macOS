@@ -57,7 +57,7 @@ jobs:
     runs-on: macOS-11
     steps:
       - name: git checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3.1.0
 
       - name: unit tests
         run: |
@@ -74,7 +74,7 @@ jobs:
     runs-on: macOS-11
     steps:
       - name: git checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3.1.0
 
       - name: unit tests
         run: |
@@ -91,7 +91,7 @@ jobs:
     runs-on: macOS-11
     steps:
       - name: git checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3.1.0
 
       - name: unit tests
         run: |
@@ -108,7 +108,7 @@ jobs:
     runs-on: macOS-11
     steps:
       - name: git checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3.1.0
 
       - name: unit tests
         run: |
@@ -125,7 +125,7 @@ jobs:
     runs-on: macOS-11
     steps:
       - name: git checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3.1.0
 
       - name: ui tests
         run: |
@@ -142,7 +142,7 @@ jobs:
     runs-on: macOS-11
     steps:
       - name: git checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3.1.0
 
       - name: ui tests
         run: |
